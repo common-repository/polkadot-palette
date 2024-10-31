@@ -1,0 +1,60 @@
+#polkadot_palette {
+ font-size:16px;
+ height:100%;
+ margin:0;
+ padding:0;
+ position:fixed;
+ width:100%;
+}
+#polkadot_palette>* {position:fixed;}
+#polkadot_palette_menu {
+ padding:5px;
+ right:0px;
+ top:5px;
+ z-index:1023;
+}
+#polkadot_palette_menu>* {
+ cursor:pointer;
+ display:inline-block;
+ margin-left:16px;
+}
+#polkadot_palette_menu_mode {
+ background:#777;
+ border-radius:4px;
+ color:#EEE;
+ padding:6px 12px;
+}
+#polkadot_palette_menu_tags {height:32px;}
+#polkadot_palette_menu_palette>* {
+ border-radius:4px;
+ color:#FFF;
+ display:inline-block;
+ min-height:10px;
+ min-width:20px;
+ padding:0 4px;
+ text-shadow:1px 1px 0 black,-1px 1px 0 black,1px -1px 0 black,-1px -1px 0 black;
+}
+#polkadot_palette_menu_palette span.on{height:20px;}
+#polkadot_palette_list {
+ height:100%;
+ left:0;
+ margin:auto;
+ top:0;
+ width:100%;
+}
+#polkadot_palette_list>div {
+ margin:0;
+ overflow:hidden;
+ padding:0;
+ position:absolute;
+}
+#polkadot_palette_list>div.p {
+ background-position:center;
+ border-radius:50%;
+}
+img {
+ position:absolute;
+ transform-origin:'50% 50%';
+}
+#polkadot_palette_list>div img {opacity:1;}
+#polkadot_palette_list>div:hover img {opacity:0.7;}

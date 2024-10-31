@@ -1,0 +1,137 @@
+# Polkadot Palette
+# Copyright (C) 2018 io
+# This file is distributed under the same license as the Polkadot Palette package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Polkadot Palette\n"
+"POT-Creation-Date: 2018-03-24 08:46+0900\n"
+"PO-Revision-Date: 2018-03-24 08:46+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Description of the plugin/theme
+msgid "Link uploaded pictures to the colors and categories/tags of a post including the pictures, show the pictures one by one."
+msgstr "アップロードした画像を色や掲載した投稿のカテゴリーやタグと紐づけて、画像を次々と表示させます。"
+
+#: polkadot-palette.php,inc/polkadot_palette_admin.class.php
+msgid "Settings"
+msgstr "設定"
+
+#: polkadot-palette.php
+msgid "Start analyzing pictures"
+msgstr "全画像の解析を開始"
+
+#: inc/Polkadot_palette_admin.class.php
+msgid "Analyze pictures for"
+msgstr "解析する対象の画像"
+
+msgid "After changing this option, 'Start analyzing pictures' is required."
+msgstr "この変更は、設定を保存した後に「全画像の解析を開始」を押して画像の解析を行う必要があります。"
+
+msgid "Color threshold"
+msgstr "カラー判別のしきい値"
+
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+msgid "Width"
+msgstr "幅"
+
+msgid "Height"
+msgstr "高さ"
+
+msgid "Quality"
+msgstr "画質"
+
+msgid "Menu"
+msgstr "メニュー"
+
+msgid "Selectable colors"
+msgstr "選択できるカラー"
+
+msgid "Display in footer"
+msgstr "フッター枠に掲載する画像一覧の表示"
+
+msgid "Link text for Showcase"
+msgstr "全画面表示へのリンク名"
+
+msgid "Showcase"
+msgstr "ショーケース"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "BGM for Grid"
+msgstr "Grid表示時BGM"
+
+msgid "BGM for Polkadot"
+msgstr "Polkadot表示時BGM"
+
+msgid "If this option is active, analyze the pictures on public posts only."
+msgstr "チェックを入れると、公開している記事に掲載された画像のみを解析・表示の対象にします。"
+
+msgid "Default: %d"
+msgstr "デフォルト: %d"
+
+msgid "Low:1 - High:100"
+msgstr "低:1～高:100"
+
+msgid "0 will be set as 100%."
+msgstr "0を指定すると100%として設定されます。"
+
+msgid "0 will be set as 100% but it does NOT work good."
+msgstr "0を指定すると100%として設定されますが、高さ100%はうまく機能しません。"
+
+msgid "URL/path for mp3"
+msgstr "mp3ファイルのURL・パス"
+
+msgid "URL/path for ogg"
+msgstr "oggファイルのURL・パス"
+
+msgid "Playable audio file depends on browser. It's good to set the both."
+msgstr "ブラウザによっては再生できない音楽フォーマットがあるため、mp3形式とogg形式の両方を設定することをおすすめします。"
+
+msgid "Empty doesn't play BGM."
+msgstr "未設定でBGMは再生されません。"
+
+msgid "Analyzing all the pictures will start soon."
+msgstr "全画像について色を解析する予約をしました"
+
+msgid "The job will take a long time.<br />The job will keep running in background. You can close this window."
+msgstr "処理は時間を必要としますので、気長にお待ちください。<br />このウィンドウを閉じてもバックグラウンドで処理は行われます。"
+
+msgid "The job is running"
+msgstr "処理中です"
+
+msgid "The job may take a long time.<br /><br />If it says the same message anytime, the job didn't finish successfully.<br />Attempt this job %d hours later."
+msgstr "全画像の色の解析は処理に時間がかかります。処理が終わるまでお待ちください。<br /><br />長時間に渡り処理中と表示される場合、処理が正常に停止しなかった可能性があります。<br />お手数ですが%d時間ほど待ってお試しください。"
+
+msgid "Analyzing pictures doesn't start?"
+msgstr "解析が行われないとき"
+
+msgid "Check the follows:"
+msgstr "次のことを確認してください。"
+
+msgid "Imagick has been installed?"
+msgstr "Imagickがインストールされていますか？"
+
+msgid "cron works?"
+msgstr "cronが動きますか？"
+
+msgid "You may have to add `define('ALTERNATE_WP_CRON', true);` to wp-config.php to use cron.<br />The cron starts when a page is loaded, click any link to let the cron start, please."
+msgstr "cronは、wp-config.php に define('ALTERNATE_WP_CRON', true); を追加して解決できる場合があります。<br />cronがスタートするタイミングは別のページに移動したときに開始されますので、メニューの適当なリンクを押せば処理が始まります。"
+
+#: inc/Polkadot_palette_template.class.php
+msgid "Polkadot Palette has not been activated.<br />Activate the plugin, please."
+msgstr "Polkadot Paletteをご利用になるためにはこのプラグインを有効にする必要があります。"
+
+#: inc/Polkadot_palette_get.class.php
+msgid "All"
+msgstr "解除"
+
+msgid "Category"
+msgstr "カテゴリー"
+
+msgid "Tag"
+msgstr "タグ"
